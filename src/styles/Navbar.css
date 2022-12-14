@@ -1,0 +1,56 @@
+.NavBar {
+  backdrop-filter: blur(10px);
+  position: fixed;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+}
+
+.ListeLiens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ListeLiens li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.ListeLiens a:hover {
+  color: #e94545;
+  text-decoration: none;
+}
+
+.ListeLiens a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  height: 40px;
+  padding-top: 5px;
+}
+
+.search {
+  height: 15px;
+  padding-left: 15px;
+}
+
+.trait {
+  border-left: 1px solid #fff;
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.panier {
+  height: 20px;
+  padding-right: 20px;
+}
